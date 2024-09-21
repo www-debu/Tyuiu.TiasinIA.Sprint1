@@ -1,5 +1,5 @@
-﻿using Tyuiu.TiasinIA.Sprint1.Task3.V5.Lib;
-namespace Tyuiu.TiasinIA.Sprint1.Task3.V5
+﻿using Tyuiu.TiasinIA.Sprint1.Task4.V23.Lib;
+namespace Tyuiu.TiasinIA.Sprint1.Task4.V23
 {
     internal class Program
     {
@@ -24,19 +24,20 @@ namespace Tyuiu.TiasinIA.Sprint1.Task3.V5
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             double x;
-            
-            Console.WriteLine("Введите расстояние между населенными пунктами:");
+
+            Console.WriteLine("Введите значение x:");
             x = Convert.ToDouble(Console.ReadLine());
-           
-            double y = 120;
-            Console.WriteLine("Расстояние между точками изображающими населенные пункты в (см) = " + x);
-            Console.WriteLine("Масштаб карты (количество км. в одном см.) -> " + y);
+
+            double y;
+            Console.WriteLine("Введите значение y:");
+            y = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.DistanceLength(x, y));
+
+            Console.WriteLine(ds.Calculate(x, y));
 
             Console.ReadLine();
         }
