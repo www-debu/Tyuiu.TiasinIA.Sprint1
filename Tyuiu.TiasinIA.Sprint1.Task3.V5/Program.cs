@@ -23,7 +23,9 @@ namespace Tyuiu.TiasinIA.Sprint1.Task3.V5
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            double x = 3.5;
+            double x;
+            Console.WriteLine("Введите расстояние между населенными пунктами:");
+            x = Convert.ToDouble(Console.ReadLine());
             double y = 120;
             Console.WriteLine("Расстояние между точками изображающими населенные пункты в (см) = " + x);
             Console.WriteLine("Масштаб карты (количество км. в одном см.) -> " + y);
