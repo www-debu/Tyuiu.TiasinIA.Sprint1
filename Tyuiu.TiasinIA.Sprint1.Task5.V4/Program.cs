@@ -11,7 +11,7 @@ namespace Tyuiu.TiasinIA.Sprint1.Task5.V4
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* спринт #1                                                               *");
-            Console.WriteLine("* Тема : Class Math                                                       *");
+            Console.WriteLine("* Тема : Преобразование типов и класс Convert                             *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #4                                                              *");
             Console.WriteLine("* Выполнил: Тясин Илья Александрович | АСОиУб-24-1                        *");
